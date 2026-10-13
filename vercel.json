@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.ogvibes.co.za" }],
+      "destination": "https://ogvibes.co.za/:path*",
+      "permanent": true
+    }
+  ]
+}
